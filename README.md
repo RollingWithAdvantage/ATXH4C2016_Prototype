@@ -2,9 +2,9 @@
 Rolling with advantage hack 4 change website prototype
 
 #technology stack
-leading choices at the moment are likey...:
+leading choices at the moment are likey...
 
-MEAN (Mongo, Express, Angular and Node):
+MEAN (Mongo, Express, Angular and Node)\n
 or:
 MERN (Mongo, Express, React and node):
 
