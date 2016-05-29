@@ -2,11 +2,11 @@
 Rolling with advantage hack 4 change website prototype
 
 #technology stack
-leading choices at the moment are likey...
+leading choices at the moment are likey...:
 
-MEAN (Mongo, Express, Angular and Node)
-or
-MERN (Mongo, Express, React and node)
+MEAN (Mongo, Express, Angular and Node):
+or:
+MERN (Mongo, Express, React and node):
 
 tool options (use whatever tool you want, but these are good ones if you don't have one you like already):
 git tool: soucetree https://www.sourcetreeapp.com/
