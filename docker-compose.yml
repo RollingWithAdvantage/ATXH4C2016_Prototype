@@ -9,7 +9,7 @@ frontend:
   build: ./docker-rollingwithadvantage
   net: host
   volumes:
-    - ./docker-rollingwithadvantage/rollingwithadvantage:/var/www/angular
+#    - ./docker-rollingwithadvantage/rollingwithadvantage:/var/www/angular
     - ./docker-rollingwithadvantage/nginx/:/etc/nginx/
   ports: 
     - "80:80"
