@@ -46,10 +46,12 @@ Build the site:
         bower install
         gulp build
 
-Launch the Docker terminal, then launch the image:
+Launch the Docker terminal, and take note of the IP listed. Launch the image:
 
         cd ATXH4C2016_Prototype
         docker-compose up        
+
+You should be able to connect to http://192.168.x.x:9000 to edit.
 
 #technology stack
 leading choices at the moment are likey...
