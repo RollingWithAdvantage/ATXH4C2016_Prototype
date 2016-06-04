@@ -1,3 +1,4 @@
 [submodule "docker-rollingwithadvantage"]
 	path = docker-rollingwithadvantage
+	branch = master
 	url = https://github.com/RollingWithAdvantage/docker-rollingwithadvantage.git
