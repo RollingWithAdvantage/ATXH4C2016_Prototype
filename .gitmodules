@@ -1,0 +1,3 @@
+[submodule "docker-rollingwithadvantage"]
+	path = docker-rollingwithadvantage
+	url = https://github.com/RollingWithAdvantage/docker-rollingwithadvantage.git

@@ -1,0 +1,16 @@
+mongo:
+  container_name: frontend_mongo
+  image: mongo
+  net: host
+  ports:
+    - "27017:27017"
+frontend:
+  container_name: hackingwithadvantage_frontend
+  build: ./docker-rollingwithadvantage
+  net: host
+  volumes:
+    - ./docker-rollingwithadvantage/rollingwithadvantage:/var/www/angular
+    - ./docker-rollingwithadvantage/nginx/:/etc/nginx/
+  ports: 
+    - "80:80"
+    - "9000:9000"
