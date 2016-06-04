@@ -11,6 +11,11 @@ Install the following prerequisutes:
 MAYBE Clone GitHub module with recursive:
 
         git clone --recursive https://github.com/RollingWithAdvantage/ATXH4C2016_Prototype.git # or use SSH
+        cd ATXH4C2016_Prototype
+        git submodule update --remote --recursive
+        cd docker-rollingwithadvantage
+        git submodule init rollingwithadvantage
+        git submodule update --remote --recursive
 
 To update:
 
