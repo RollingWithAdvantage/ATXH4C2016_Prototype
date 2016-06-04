@@ -22,7 +22,10 @@ Clone this project, then run the following (SourceTree might help?):
         git checkout master
         git pull
 
-        
+Launch the Docker terminal...
+
+        cd ATXH4C2016_Prototype
+        docker-compose up        
 
 #technology stack
 leading choices at the moment are likey...
