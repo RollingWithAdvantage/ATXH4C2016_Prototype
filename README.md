@@ -8,6 +8,15 @@ Install the following prerequisutes:
 * NodeJS 5
 * Docker Toolbox https://www.docker.com/products/docker-toolbox
 
+MAYBE Clone GitHub module with recursive:
+
+        git clone --recursive https://github.com/RollingWithAdvantage/ATXH4C2016_Prototype.git # or use SSH
+
+To update:
+
+        git submodule update --remote --recursive
+
+Manual setup:
 Clone this project, then run the following (SourceTree might help?):
 
         cd docker-rollingwithadvantage
@@ -22,7 +31,17 @@ Clone this project, then run the following (SourceTree might help?):
         git checkout master
         git pull
 
-Launch the Docker terminal...
+Build the site:
+
+        cd ATXH4C2016_Prototype/docker-rollingwithadvantage/rollingwithadvantage
+        
+        npm install --global bower gulp
+        
+        npm install
+        bower install
+        gulp build
+
+Launch the Docker terminal, then launch the image:
 
         cd ATXH4C2016_Prototype
         docker-compose up        
