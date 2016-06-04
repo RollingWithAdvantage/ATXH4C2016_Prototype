@@ -1,6 +1,29 @@
 # ATXH4C2016_Prototype
 Rolling with advantage hack 4 change website prototype
 
+# Getting Started #
+
+Install the following prerequisutes:
+
+* NodeJS 5
+* Docker Toolbox https://www.docker.com/products/docker-toolbox
+
+Clone this project, then run the following (SourceTree might help?):
+
+        cd docker-rollingwithadvantage
+        git submodule init 
+        git submodule sync
+        git checkout master
+        git pull
+        
+        cd rollingwithadvantage
+        git submodule init 
+        git submodule sync
+        git checkout master
+        git pull
+
+        
+
 #technology stack
 leading choices at the moment are likey...
 
