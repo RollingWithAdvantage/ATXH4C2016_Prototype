@@ -12,13 +12,13 @@ Clone this project, then run the following (SourceTree might help?):
 
         cd docker-rollingwithadvantage
         git submodule init 
-        git submodule sync
+        git submodule update
         git checkout master
         git pull
         
         cd rollingwithadvantage
         git submodule init 
-        git submodule sync
+        git submodule update
         git checkout master
         git pull
 
