@@ -1,5 +1,5 @@
 mongo:
-  container_name: frontend_mongo
+  container_name: rollingwithadvantage_mongo
   image: mongo
   net: host
   ports:
